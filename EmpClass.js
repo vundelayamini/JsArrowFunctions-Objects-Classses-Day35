@@ -22,3 +22,6 @@ let employeePayrollData = new EmployeePayrollData(1,"Shaloo",60000);
 console.log("UC12\nClass contents:\n" + employeePayrollData.toString());
 employeePayrollData.name = "Priyanshu";
 console.log(employeePayrollData.toString());
+//UC13 Exteded payroll datafield
+let newEmployeePayrollData = new EmployeePayrollData(2, "Terissa", 50000, 'F', new Date());
+console.log(newEmployeePayrollData.toString()); 
